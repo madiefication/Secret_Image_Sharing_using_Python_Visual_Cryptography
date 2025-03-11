@@ -2,7 +2,6 @@
 
 In this project we take any image which is to be shared secretly. This image is encrypted using a key given by the user. Further, the encrypted image is divided into N different shares using K N Secret Sharing Algorithm. These N shares can be distributed but, the end user needs only K of these shares to generate the original image. After the original image is generated it is still in encrypted form. The key which is used to encrypt the image originally is now required again to decrypt it, thus providing an additional level of security.
 
-![alt tag](https://raw.githubusercontent.com/srajat/Visual-Cryptography-Using-K-N-Secret-Sharing/master/images/Screenshot%20from%202017-07-02%2014:57:42.png)
 
 
 
@@ -52,19 +51,16 @@ Number of shares (n) = 10
 Number of shares to be taken (k) = 6,
 The experimental result after encryption by the kn encryption algorithm is given below:
 
-![alt tag](https://raw.githubusercontent.com/srajat/Visual-Cryptography-Using-K-N-Secret-Sharing/master/images/Screenshot%20from%202017-07-02%2014:58:00.png)
 
 We can get the original image only by stacking k or more shares. If value of k is less than
 required (in this case k = 6), we will get a partial image. After choosing any number of
 shares of all the generated shares, the reconstructed image is:
 
-![alt tag](https://raw.githubusercontent.com/srajat/Visual-Cryptography-Using-K-N-Secret-Sharing/master/images/Screenshot%20from%202017-07-02%2014:58:05.png)
 
 ### AES encryption results <a name='aes'></a>
 A symmetric key based encryption (AES encryption) at both the ends of KN Shares
 Algorithm is added to make the image more secure.
 
-![alt tag](https://raw.githubusercontent.com/srajat/Visual-Cryptography-Using-K-N-Secret-Sharing/master/images/Screenshot%20from%202017-07-02%2014:58:12.png)
 
 Thus, after encrypting the original image with AES first, and then, regenerating the
 shares gives more better and noisy image. Now, the image will require at-least k shares
@@ -81,13 +77,11 @@ for Encryption and Decryption. Following are the steps to run the GUI :-
 Execute command run knshare in matlab terminal. The KNshare main screen
 appears.
 
-![alt tag](https://raw.githubusercontent.com/srajat/Visual-Cryptography-Using-K-N-Secret-Sharing/master/images/Screenshot%20from%202017-07-02%2014:58:23.png)
 
 ### 2. Step 2:
 
 Click on ENCRYPT button to open the encryption window.
 
-![alt tag](https://raw.githubusercontent.com/srajat/Visual-Cryptography-Using-K-N-Secret-Sharing/master/images/Screenshot%20from%202017-07-02%2014:58:29.png)
 
 ### 3. Step 3:
 
@@ -140,16 +134,3 @@ through N channels. End user can get K shares and ignore the other N − K share
 
 
 
-
-## Contributers <a name='contributers'></a>
-* Rajat Saxena
-* Satyam Poddar
-* Pranav Pandey
-* Ankush Jangid
-* Divyesh Soni
-
-## Links <a name='links'></a>
-
-Visit me:     [Rajat Saxena](http://www.rajatsaxena.me/)
-
-Contact me:     <rajat8171@gmail.com>
